@@ -1,0 +1,9 @@
+<html>
+<body>
+
+<p>This <em>word</em> is italicized.</p>
+<p>This <strong>word</strong> is bold.</p>
+<p>This<mark>word</mark> is highlighted</p>
+
+</body>
+</html>
