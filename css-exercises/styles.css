@@ -7,3 +7,21 @@ h1 {
 p {
   color:purple;
 }
+
+<h1 id="id1">Heading</h1>
+<p id="id1">Paragraph.</p>
+<p id="id2">Paragraph.</p>
+
+.bluev {
+color: blue;
+font-family: verdana;
+}
+.center {
+text-align: center;
+color: darkturquoise;
+}
+
+.bluev p {
+color: blue;
+font-family: verdana;
+}
