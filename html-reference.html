@@ -1,8 +1,156 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+</style>
+</head>
 <body bgcolor=mintcream>
 
 <h1> HTML Reference Page</h1>
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Start Tag</th>
+    <th>End Tag</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td>&lthtml&gt;</td>
+    <td>&lt/html&gt;</td>
+    <td><pre>
+&lthtml&gt;
+&lt/html&gt;
+</pre></td>
+  </tr>
+  <tr>
+    <td>Head</td>
+    <td>&lthead&gt;</td>
+    <td>&lt/head&gt;</td>
+    <td><pre>
+&lthead&gt;
+&lt/head&gt;
+</pre></td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td>&lttitle&gt;</td>
+    <td>&lt/title&gt;</td>
+    <td>&lttitle&gt;Title&lt/title&gt;</td>
+  </tr>
+  <tr>
+    <td>Body</td>
+    <td>&ltbody&gt;</td>
+    <td>&lt/body&gt;</td>
+    <td><pre>
+&ltbody&gt;
+&lt/body&gt;
+</pre></td>
+  </tr>
+  <tr>
+    <td>Headings</td>
+    <td>&lth1&gt;, &lth2&gt;...</td>
+    <td>&lt/h1&gt;,&lt/h2&gt;...</td>
+    <td>&lth1&gt;Header 1&lt/h1&gt;, &lth2&gt;Header 2&lt/h2&gt;...</td>
+  </tr>
+  <tr>
+    <td>Paragraph</td>
+    <td>&ltp&gt;</td>
+    <td>&lt/p&gt;</td>
+    <td>&ltp&gt;This is a paragraph.&lt/p&gt;</td>
+  </tr>
+  <tr>
+    <td>Breaks</td>
+    <td>&ltbr&gt;</td>
+    <td>N/A</td>
+    <td>The br element&ltbr&gt;is used&ltbr&gt;like this.</td>
+  </tr>
+  <tr>
+    <td>Lines</td>
+    <td>&lthr&gt;</td>
+    <td>N/A</td>
+    <td><pre>
+&ltp&gt; This is the first paragraph.&lt/p&gt;
+
+&lthr&gt;
+
+&ltp&gt;This is the second paragraph.&lt/p&gt;
+</pre></td>
+  </tr>
+  <tr>
+    <td>Comments</td>
+    <td>&lt!-- --&gt;</td>
+    <td>N/A</td>
+    <td>&lt!-- comment --&gt;</td>
+  </tr>
+  <tr>
+    <td>Links</td>
+    <td>&lta&gt;</td>
+    <td>&lt/a&gt;</td>
+    <td>&lta href="https://alexacross.github.io"&gt;This is a link.&lt/a&gt;</td>
+  </tr>
+  <tr>
+    <td>Images</td>
+    <td>&ltimg&gt;</td>
+    <td>N/A</td>
+    <td>&ltimg src="https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg"&gt;</td>
+  </tr>
+  <tr>
+    <td>Lists</td>
+    <td>&ltul&gt;, &ltol&gt;, &ltli&gt;</td>
+    <td>&lt/ul&gt;, &lt/ol&gt;, &lt/li&gt;</td>
+    <td><pre>
+&ltol&gt;
+  &ltli&gt;Item 1&lt/li&gt;
+  &ltli>Item 2&lt/li&gt;
+  &ltli>Item 3&lt/li&gt;
+&lt/ol&gt;
+</pre></td>
+  </tr>
+  <tr>
+    <td>Tables</td>
+    <td>&lttable&gt; (&lttr&gt;,&ltth&gt;, &lttd&gt;)</td>
+    <td>&lt/table&gt; (&lt/tr&gt;,&lt/th&gt;, &lt/td&gt;)</td>
+    <td><pre>
+&lttable&gt;
+  &lttr&gt;
+    &ltth&gt;Color&lt/th&gt;
+    &ltth&gt;Meaning&lt/th&gt;
+  &lt/tr&gt;
+  &lttr&gt;
+    &lttd&gt;Green&lt/td&gt;
+    &lttd&gt;Go&lt/td&gt;
+  &lt/tr&gt;
+  &lttr&gt;
+    &lttd&gt;Red&lt/td&gt;
+    &lttd&gt;Stop&lt/td&gt;
+  &lt/tr&gt;
+&lt/table&gt;
+</pre></td>
+  </tr>
+  <tr>
+    <td>Blocks</td>
+    <td>&ltdiv&gt;</td>
+    <td>&lt/div&gt;</td>
+    <td><pre>
+&ltdiv style="color:#0000FF"&gt;
+  &lth3>This is a heading&lt/h3&gt;
+  &ltp>This is a blue.&lt/p&gt;
+&lt/div>
+</pre></td>
+  </tr>
+</table>
+
 <h2>What makes a valid HTML page:</h2>
 <dl>
   <dt>&lt!DOCTYPE&gt;</dt>
@@ -135,7 +283,7 @@ The br element<br>is used<br>like this.
 <hr>
 
 <h2>Comments</h2>
-<p>To place a comment, the user would use the tag &lt!-- comment --&gt;. They allow their users to place private comments, notifications, and reminders in their HTML that are not displayed on the browser. These tags do not have an end tag and may be located anywhere throughout the body.</p>
+<p>To place a comment, the user would use the tag &lt!-- --&gt;. They allow their users to place private comments, notifications, and reminders in their HTML that are not displayed on the browser. These tags do not have an end tag and may be located anywhere throughout the body.</p>
 
 <h3>Example:</h3>
 &lt!-- This is a comment --&gt;
@@ -160,7 +308,7 @@ The br element<br>is used<br>like this.
 &ltimg src="https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg"&gt;
 
 <h3>Display:</h3>
-<img src="https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg" alt="Photo" width="200" height="110">
+<img src="https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg" alt="Photo" width="100" height="55">
 
 <hr>
 
