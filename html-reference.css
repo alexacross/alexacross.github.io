@@ -6,7 +6,7 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     background-color: white;
-   width: 200;
+   width: 100;
 }
 .bgcolor {
    background-color: rgb(242, 213, 210);
