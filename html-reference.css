@@ -16,7 +16,6 @@ table, th, td {
 }
 .border {
    border: 10px solid white;
-   width: 100px;
 }
 .font {
    font-family: "Courier New", Courier, Monospace 
