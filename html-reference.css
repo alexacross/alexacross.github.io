@@ -1,0 +1,24 @@
+
+.background {
+   background-color: mintcream;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+.bgcolor {
+   background-color: rgb(242, 213, 210);
+}
+.bg2color {
+   background-color: rgb(149, 195, 206);
+}
+.border {
+   border: 10px solid white;
+}
+.font {
+   font-family: "Courier New", Courier, Monospace 
+}
+.center {
+   text-align: center;
+}
