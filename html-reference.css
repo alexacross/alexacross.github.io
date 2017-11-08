@@ -3,10 +3,10 @@
    background-color: mintcream;
 }
 table, th, td {
-    border: 1px solid black;
+    border: 2px solid black;
     border-collapse: collapse;
     background-color: white;
-   width: 100;
+   width: 50;
 }
 .bgcolor {
    background-color: rgb(242, 213, 210);
