@@ -1,11 +1,22 @@
 
 .background {
    background-color: mintcream;
+   padding: 5px
 }
-table, th, td {
-    border: 2px solid black;
+table, td {
+    border: 5px dotted rgb(149, 195, 206);
+    padding: 5px;
     border-collapse: collapse;
     background-color: white;
+    font: bold;
+}
+th {
+    background-color: rgb(149, 195, 206);
+    padding: 5px;
+    border: 5px dotted rgb(149, 195, 206);
+    border-collapse: collapse;
+    width: 100px;
+    font: bold;
 }
 .bgcolor {
    background-color: rgb(242, 213, 210);
