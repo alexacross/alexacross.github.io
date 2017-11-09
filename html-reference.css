@@ -17,7 +17,7 @@ th {
     border-collapse: collapse;
     width: 100px;
     font: bold;
-    font-size: 15 px
+    font-size: 15;
 }
 .bgcolor {
    background-color: rgb(242, 213, 210);
