@@ -1,0 +1,12 @@
+.heading{
+    background-image: url("https://dncache-mauganscorp.netdna-ssl.com/thumbseg/1636/1636761-bigthumbnail.jpg");
+    background-attachment: local;
+    width: 250px;
+    padding: 100px;
+    border: 15px solid maroon;
+    margin: auto;
+   font-family: "Courier New", Courier, Monospace;
+   text-align: center;
+   color: white;
+   font-size: 50px
+}
