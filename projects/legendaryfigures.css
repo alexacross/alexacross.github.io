@@ -90,14 +90,3 @@ body {
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#3e3436;
 }
-.heading{
-    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61wICHP5-ML.jpg");
-   background-attachment: local;
-    width: 250px;
-    padding: 100px;
-    border: 25px solid white;
-    margin: auto;
-   text-align: center;
-   color: white;
-   font-size: 50px
-}
