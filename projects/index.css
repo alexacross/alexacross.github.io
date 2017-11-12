@@ -99,7 +99,14 @@ body {
     padding: 100px;
     border: 25px solid firebrick;
     margin: auto;
-   font-family: "Courier New", Courier, Monospace;
    text-align: center;
    color: white;
    font-size: 50px
+}
+   
+.homep {
+  text-align: center;
+  color: firebrick;
+  font-family: cursive;
+  font-size: 20px
+}
