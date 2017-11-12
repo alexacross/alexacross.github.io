@@ -90,3 +90,13 @@ body {
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#3e3436;
 }
+.heading1 {
+  background-color: white;
+  border: dotted firebrick;
+  padding: 10px;
+  margin-left: 350px;
+  margin-right: 350px;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
