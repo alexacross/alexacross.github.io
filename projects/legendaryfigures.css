@@ -92,12 +92,12 @@ body {
 }
 .heading{
     background-image: url("https://images-na.ssl-images-amazon.com/images/I/61wICHP5-ML.jpg");
+   background-attachment: local;
     width: 250px;
     padding: 100px;
-    border: 25px solid mediumseagreen;
+    border: 25px solid white;
     margin: auto;
-   font-family: "Courier New", Courier, Monospace;
    text-align: center;
-   color: mediumseagreen;
+   color: white;
    font-size: 50px
 }
