@@ -100,3 +100,48 @@ body {
   color: black;
   text-align: center;
 }
+.santa {
+  background-color: firebrick;
+  border: dotted white;
+  padding: 10px;
+  margin-right: 250px;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+}
+.elves {
+  background-color: mediumseagreen;
+  border: dotted firebrick;
+  padding: 10px;
+  margin-left: 250px;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+}
+table, td {
+    border: 5px dotted firebrick;
+    padding: 5px;
+    border-collapse: collapse;
+    background-color: white;
+    font: bold;
+    color: black;
+    font-size: 15px
+}
+th {
+    background-color: firebrick;
+    padding: 5px;
+    border: 5px dotted white;
+    border-collapse: collapse;
+    width: 100px;
+    font: bold;
+    font-size: 15;
+}
+.reindeer {
+  background-color: white;
+  border: dotted firebrick;
+  padding: 10px;
+  margin-right: 250px;
+  font-size: 15px;
+  color: firebrick;
+  text-align: left;
+}
