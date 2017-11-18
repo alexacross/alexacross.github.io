@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, Monospace;
+}
+.header {
+  background-image: url("http://www.youtodesign.com/uploads/allimg/1409/2984.jpg");
+  padding: 20px;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+table, td {
+    padding: 5px;
+    border-collapse: collapse;
+}
+th {
+    padding: 5px;
+    border-collapse: collapse;
+    width: 100px;
+}
+.footer {
+    padding: 10px;
+}
